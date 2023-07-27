@@ -54,7 +54,7 @@ sudo mkarchiso -v releng/
 
 After the above command completes, there should be an ISO in the `out/` directory. You can remove the work directory:
 ```bash
-rm -rf work/
+sudo rm -rf work/
 ```
 To install the ISO, burn it to a blank USB drive using a tool such as [Popsicle](https://github.com/pop-os/popsicle), then restart and boot from the USB. Note that Secure Boot must be disabled to boot the live environment.
 

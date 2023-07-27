@@ -113,7 +113,7 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
-virtualbox-guest-utils-nox
+# virtualbox-guest-utils-nox (removed by Meowix maintainers)
 vpnc
 wezterm-terminfo
 wireless-regdb
