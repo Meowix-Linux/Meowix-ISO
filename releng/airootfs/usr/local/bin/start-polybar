@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Terminate already running bar instances
+polybar-msg cmd quit
+
+# Launch Polybar
+echo "---" | tee -a /tmp/polybar.log
+polybar nekosisbar 2>&1 | tee -a /tmp/polybar.log & disown
+
+echo "Polybar launched..."

@@ -1,0 +1,61 @@
+### Launching Applications ###
+
+# Open the applications menu
+super + d
+	jgmenu_run
+
+# Open the terminal emulator
+super + Return
+	alacritty
+
+# Open the web browser
+super + f
+	firefox
+
+### BSPWM and SXHKD ###
+
+### {Quit, Restart} BSPWM
+super + alt + {q,r}
+	bspc {quit,wm -r}
+
+# Reload the SXHKD configuration
+super + Escape
+	pkill -USR1 -x sxhkd
+
+### Windows ###
+
+# {Close,Kill} the focused window
+super + {_,shift + }w
+	bspc node -{c,k}
+
+# Toggle the focused window between floating and tiled mode
+super + ctrl + f
+    if [ -z "$(bspc query -N -n focused.floating)" ]; then \
+        bspc node focused -t floating; \
+    else \
+        bspc node focused -t tiled; \
+    fi
+    
+### Focus ###
+
+# Focus the {previous,next} window
+super + {Left,Right}
+	bspc node -f {prev,next}.local.!hidden.window
+
+# Focus the {previous,next} desktop
+super + shift + {Left,Right}
+	bspc desktop -f {prev,next}.local
+
+# {Focus,Send the focused window to} desktop {1-9,10}
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+### Screenshots ###
+
+# Take a fullscreen screenshot
+Print
+	flameshot full -p ~/Pictures/Screenshots
+
+# Select an area to take a screenshot of
+shift + Print
+	flameshot gui -p ~/Pictures/Screenshots

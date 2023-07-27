@@ -1,0 +1,9 @@
+terminal_exec = alacritty
+menu_margin_y = 32
+menu_valign = top
+sub_spacing = 0
+font = monospace 10
+color_menu_bg = #1e1e2e 100
+color_norm_fg = #cdd6f4 100
+color_sel_bg = #585b70 40
+color_sel_fg = #cdd6f4 100

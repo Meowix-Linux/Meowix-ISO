@@ -1,0 +1,7 @@
+NAME="Meowix Linux"
+PRETTY_NAME="Meowix Linux"
+ID=meowix
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="0;31"
+HOME_URL="https://github.com/Meowix-Linux/"

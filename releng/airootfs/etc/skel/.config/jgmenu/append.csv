@@ -1,0 +1,3 @@
+^sep()
+Reboot,systemctl -i reboot,system-reboot
+Poweroff,systemctl -i poweroff,system-shutdown
