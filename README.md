@@ -26,7 +26,7 @@ Meowix Linux aims to make the installation of a beautiful and efficient system e
 
 ## Installation
 
-**Meowix is currently in EXTREMELY early stages.** Therefore, there are no releases *just yet* - keep your eyes peeled, though. ~~In the meantime, you can build a Meowix ISO yourself!~~ *You caught us at a bad time - no profile for Archiso is avaliable yet. Come back in a day or two, and we'll likely have one up by then.*
+**Meowix is currently in EXTREMELY early stages.** Therefore, there are no releases *just yet* - keep your eyes peeled, though. In the meantime, you can build a Meowix ISO yourself! Please note that there is currently no way to install Meowix locally to your machine, but the live environment still works. There will probably still be a bit of Arch branding hanging around as well.
 
 ### Building the Archiso profile
 
