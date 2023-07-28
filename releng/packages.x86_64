@@ -172,7 +172,7 @@ xorg
 xorg-xinit
 
 ### Theming ###
-lightly-qt
+lightly-git
 qt5ct
 
 ### Misc ###
