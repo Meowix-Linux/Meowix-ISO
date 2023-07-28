@@ -1,0 +1,17 @@
+## /etc/sudoers
+## WARNING: This file MUST be edited with the `visudo` command as root.
+
+## Enable password feedback
+Defaults pwfeedback
+
+## Keep the user's editor
+Defaults env_keep += "EDITOR VISUAL"
+
+## Allow the root user to execute any command
+root ALL=(ALL:ALL) ALL
+
+## Allow members of group wheel to execute any command
+%wheel ALL=(ALL:ALL) ALL
+
+## Read drop-in files from /etc/sudoers.d
+@includedir /etc/sudoers.d
