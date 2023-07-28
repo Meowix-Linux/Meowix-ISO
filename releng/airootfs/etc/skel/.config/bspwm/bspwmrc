@@ -39,4 +39,5 @@ pgrep -x sxhkd > /dev/null || sxhkd & # Hotkey daemon
 feh --bg-fill ~/Pictures/wallpaper.png & # Manages the wallpaper
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & # Polkit agent (basically sudo but GUI)
 dunst & # Notificaton daemon
+flameshot & # Screenshot daemon
 start-polybar & # Status bar
