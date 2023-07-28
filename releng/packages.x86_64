@@ -151,11 +151,11 @@ xf86-input-wacom
 
 ### Audio drivers ###
 pipewire
-wireplumber
-pipewire-audio
 pipewire-alsa
-pipewire-pulse
+pipewire-audio
 pipewire-jack
+pipewire-pulse
+wireplumber
 
 ### From Meowix-Repo ###
 bspwm-git
@@ -163,15 +163,15 @@ sxhkd-git
 
 ### Misc ###
 alacritty
-firefox
-jgmenu
-flameshot
 bash
-polkit-gnome
-pcmanfm-gtk3
-feh
 dunst
-polybar
+feh
+firefox
+flameshot
+jgmenu
+pcmanfm-gtk3
 picom
+polkit-gnome
+polybar
 xorg
 xorg-xinit
