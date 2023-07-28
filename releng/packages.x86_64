@@ -157,6 +157,13 @@ pipewire-jack
 pipewire-pulse
 wireplumber
 
+### Fonts ###
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+noto-fonts-extra
+ttf-hack-nerd
+
 ### From Meowix-Repo ###
 bspwm-git
 sxhkd-git
