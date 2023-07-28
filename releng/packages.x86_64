@@ -172,7 +172,12 @@ xorg
 xorg-xinit
 
 ### Theming ###
+catppuccin-gtk-theme-mocha
+gnome-themes-extra
+gtk-engine-murrine
 lightly-git
+papirus-folders-catppuccin-git
+papirus-icon-theme
 qt5ct
 
 ### Misc ###
