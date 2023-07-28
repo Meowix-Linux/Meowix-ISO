@@ -171,6 +171,10 @@ sxhkd-git
 xorg
 xorg-xinit
 
+### Theming ###
+lightly-qt
+qt5ct
+
 ### Misc ###
 alacritty
 bash
