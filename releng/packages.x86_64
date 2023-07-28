@@ -164,9 +164,12 @@ noto-fonts-emoji
 noto-fonts-extra
 ttf-hack-nerd
 
-### From Meowix-Repo ###
+### Xorg ###
 bspwm-git
+picom
 sxhkd-git
+xorg
+xorg-xinit
 
 ### Misc ###
 alacritty
@@ -177,8 +180,5 @@ firefox
 flameshot
 jgmenu
 pcmanfm-gtk3
-picom
 polkit-gnome
 polybar
-xorg
-xorg-xinit
