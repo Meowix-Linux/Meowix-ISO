@@ -14,6 +14,7 @@
 </p>
 
 ## What's Meowix?
+
 Meowix Linux is an [Arch Linux](https://archlinux.org/)-based distribution that heavily utilizes Catppuccin. From the official [Catppuccin GitHub repository](https://github.com/catppuccin/catppuccin)'s README:
 
 > Catppuccin is a community-driven pastel theme that aims to be the middle ground between low and high contrast themes.
