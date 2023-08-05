@@ -27,7 +27,7 @@ Meowix Linux aims to make the installation of a beautiful and efficient system e
 
 ## Installation
 
-**Meowix is currently in EXTREMELY early stages.** Therefore, there are no releases *just yet* - keep your eyes peeled, though. In the meantime, you can build a Meowix ISO yourself! Please note that there is currently no way to install Meowix locally to your machine, but the live environment still works. There will probably still be a bit of Arch branding hanging around as well.
+**Meowix is currently in EXTREMELY early stages.** Therefore, there are no releases *just yet* - keep your eyes peeled, though. In the meantime, you can build a Meowix ISO yourself!
 
 ### Building the Archiso profile
 
@@ -57,7 +57,68 @@ After the above command completes, there should be an ISO in the `out/` director
 ```bash
 sudo rm -rf work/
 ```
-To install the ISO, burn it to a blank USB drive using a tool such as [Popsicle](https://github.com/pop-os/popsicle), then restart and boot from the USB. Note that Secure Boot must be disabled to boot the live environment.
+
+### Installing Meowix
+
+#### Burning the USB and booting to the live environment
+
+To install the ISO, first burn it to a blank USB drive using a tool such as [Popsicle](https://github.com/pop-os/popsicle), then restart and boot from the USB by selecting it as your boot device (refer to your motherboard's manual for details). Note that Secure Boot must be disabled to boot the live environment.
+
+Wait for the root filesystem to be copied to RAM and for the system to boot. This could take 5-10 minutes.
+
+When the wallpaper and status bar appears, connect to the internet:
+
+#### Connecting to the internet with WiFi
+
+Click on the WiFi module in the status bar to open the GUI wifi tool (`iwgtk`).
+
+Click the "Connect" button for the WiFi network you wish to connect to. This will prompt you for your password. After entering it and connecting, confirm your connection by checking the status bar's WiFi module (it may take a few seconds to update).
+
+Press `Super + W` to close the window.
+
+#### Connecting to the internet with a mobile broadband (WWAN) modem
+
+There is no mobile broadband/WWAN modem GUI tool installed. If you need to connect using one, open a terminal with `Super + Enter` and use the CLI utility `mmcli`. Steps to use `mmcli` are [here](https://wiki.archlinux.org/title/Mobile_broadband_modem#ModemManager).
+
+The ModemManager configuration will not copy over to the installed system; you will need to reconnect after installation.
+
+As there is no mobile broadband/WWAN modem module for the status bar, you can verify internet connectivity with `ping` instead:
+
+`ping example.com`
+
+Consider adding a mobile broadband/WWAN modem module to the status bar (`polybar`) after installation.
+
+#### Connecting to the internet through Ethernet, WLAN, or WWAN interfaces using DHCP
+
+This should work automatically.
+
+As there is no Ethernet/WLAN/WWAN module for the status bar, you can open a terminal with `Super + Enter` and verify internet connectivity with `ping` instead:
+
+`ping example.com`
+
+Consider adding a Ethernet/WLAN/WWAN module to the status bar (`polybar`) after installation.
+
+#### Using the installer program
+
+After connecting to the internet, press `Super + D` to open the application menu, then start typing to search for "Install".
+
+An option that says "Install System" should come up. Press enter.
+
+Then, follow the steps in the installer. Make sure to keep your USB drive plugged in. When the installation process finishes, check the box to restart the system, then exit the installer. The system should restart automatically.
+
+#### Post installation
+
+First, boot into your new system by selecting the new "Meowix" option as your boot device.
+
+At this point, you can unplug the USB drive.
+
+You should now see a display manager (login screen). Log in with the password you chose in the installer.
+
+Wait for the system to start. You should now see a window open that will instruct you to enter your account password. Do so, then wait for some finalization tasks to finish up.
+
+After the post-install script finishes, you will be instructed to press any key to exit. Do so.
+
+Congratulations! Meowix Linux is now fully installed on your computer and you can set it up to your heart's content.
 
 ## License
 

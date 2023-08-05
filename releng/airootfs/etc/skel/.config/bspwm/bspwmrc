@@ -1,9 +1,9 @@
 #! /bin/bash
 
-# bspwmrc for Meowix Linux live CD
+# bspwmrc
 
 # Set up workspaces
-bspc monitor -d One Two Three Four Five Six Seven Eight Nine Ten
+bspc monitor -d  󰖟 󰗃 󰮂
 
 # Set the border width
 bspc config border_width         2
@@ -36,8 +36,17 @@ bspc config focused_border_color "#f5c2e7"
 
 # Startup applications
 pgrep -x sxhkd > /dev/null || sxhkd & # Hotkey daemon
-feh --bg-fill ~/Pictures/wallpaper.png & # Manages the wallpaper
+killall -q pcmanfm # Kill all PCManFM processes first to avoid issues
+pcmanfm --desktop & # Manages the wallpaper
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & # Polkit agent (basically sudo but GUI)
 dunst & # Notificaton daemon
 flameshot & # Screenshot daemon
 start-polybar & # Status bar
+
+# Post-install script
+if [ -f "/var/tmp/calamares-finished.lock" ]; then
+    alacritty -e /usr/local/bin/meowix-post-install-tool &
+else
+    echo "Calamares lockfile not found. Not running post-install tool."
+fi
+

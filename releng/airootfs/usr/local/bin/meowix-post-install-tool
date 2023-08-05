@@ -1,0 +1,30 @@
+#!/bin/bash
+# This is the Meowix Linux post-install tool.
+echo -e "Hi, welcome to \033[38;2;243;139;168mM\033[38;2;250;179;135me\033[38;2;249;226;175mo\033[38;2;166;227;161mw\033[38;2;137;180;250mi\033[38;2;203;166;247mx\033[0m Linux!"
+echo "We need to get some things ready for you before you can use the system."
+while true; do
+    prompt="Please enter your sudo password: "
+    while IFS= read -p "$prompt" -r -s -n 1 char
+    do
+        if [[ $char == $'\0' ]]
+        then
+            break
+        fi
+        prompt='*'
+        password+="$char"
+    done
+    echo -e "\n"
+    if echo "$password" | sudo -S pacman -Syu --noconfirm; then
+    	break
+    else
+    	echo -e "Incorrect password. Please try again or press Ctrl+C to exit."
+	fi
+done
+themes=("ePapirus" "ePapirus-Dark" "Papirus" "Papirus-Dark" "Papirus-Light")
+folder_color="cat-mocha-pink"
+for theme in "${themes[@]}"; do
+    papirus-folders -C "$folder_color" -t "$theme"
+done
+echo "$password" | sudo -S rm /var/tmp/calamares-finished.lock
+echo -e "\nYour system is ready."
+read -n 1 -s -r -p "Press any key to exit..."

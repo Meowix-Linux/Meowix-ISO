@@ -1,0 +1,25 @@
+componentName: meowix
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+windowExpanding: fullscreen
+sidebar: widget
+navigation: widget
+strings:
+    productName:         "@{NAME}"
+    shortProductName:    Meowix
+    version:             ISO Version 23.8
+    shortVersion:        23.8
+    versionedName:       Meowix Linux ISO Version 23.8
+    shortVersionedName:  Meowix 23.8
+    bootloaderEntryName: Meowix
+    productUrl:          https://github.com/Meowix-Linux/
+images:
+    productIcon:         "squid.png"
+    productLogo:         "squid.png"
+    productWelcome:      "languages.png"
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"
+   sidebarTextHighlight: "#D35400"
+slideshow: "show.qml"

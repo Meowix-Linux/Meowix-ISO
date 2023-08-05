@@ -12,6 +12,14 @@ super + Return
 super + f
 	firefox
 
+# Open a private instance of the web browser
+super + shift + f
+	firefox --private-window
+
+# Open the file manager
+super + s
+	pcmanfm
+
 ### BSPWM and SXHKD ###
 
 ### {Quit, Restart} BSPWM

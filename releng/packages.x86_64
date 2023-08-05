@@ -171,6 +171,12 @@ sxhkd-git
 xorg
 xorg-xinit
 
+### Display manager ###
+lightdm
+lightdm-settings
+lightdm-slick-greeter
+xinit-xsession
+
 ### Theming ###
 catppuccin-gtk-theme-mocha
 gnome-themes-extra
@@ -180,17 +186,39 @@ papirus-folders-catppuccin-git
 papirus-icon-theme
 qt5ct
 
+### File management ###
+arj
+binutils
+bzip2
+cpio
+gzip
+lrzip
+lz4
+lzip
+lzop
+p7zip
+pcmanfm-gtk3
+tar
+unarj
+unrar
+unzip
+xarchiver
+xdg-utils
+xz
+zip
+zstd
+
 ### Misc ###
 alacritty
 bash
+calamares
 dunst
-feh
 firefox
 flameshot
 hyfetch-git
 iwgtk
 jgmenu
 lsb-release-meowix
-pcmanfm-gtk3
 polkit-gnome
 polybar
+qview
