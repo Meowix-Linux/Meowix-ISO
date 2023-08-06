@@ -208,6 +208,11 @@ xz
 zip
 zstd
 
+### AUR ###
+base-devel
+git
+paru
+
 ### Misc ###
 alacritty
 bash
@@ -219,7 +224,6 @@ hyfetch-git
 iwgtk
 jgmenu
 lsb-release-meowix
-paru
 polkit-gnome
 polybar
 qview
