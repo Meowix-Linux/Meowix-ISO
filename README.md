@@ -27,7 +27,12 @@ Meowix Linux aims to make the installation of a beautiful and efficient system e
 
 ## Installation
 
-**Meowix is currently in EXTREMELY early stages.** Therefore, there are no releases *just yet* - keep your eyes peeled, though. In the meantime, you can build a Meowix ISO yourself!
+**Please note that Meowix is currently in early stages. Expect bugs.** With that being said, you have two options to obtain an ISO: You can either download a release version of Meowix, or you can build a Meowix ISO yourself!
+
+### Downloading a release ISO
+1. Visit the [Releases](https://github.com/Meowix-Linux/Meowix-ISO/releases) page.
+2. Scroll down until you see the first link that says something similar to `meowixlinux-XX.YY-x86_64.iso`.
+3. Click the link. Your download should then start.
 
 ### Building the Archiso profile
 
