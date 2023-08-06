@@ -2,10 +2,10 @@
 # shellcheck disable=SC2034
 
 iso_name="meowixlinux"
-iso_label="MWIX_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_label="MWIX_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%g%m)"
 iso_publisher="Meowix Linux <https://github.com/Meowix-Linux>"
 iso_application="Meowix Linux Live CD"
-iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
+iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%g.%m)"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
