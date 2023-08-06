@@ -7,9 +7,9 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    Meowix
-    version:             ISO Version 23.8
+    version:             23.8 "Abyssinian"
     shortVersion:        23.8
-    versionedName:       Meowix Linux ISO Version 23.8
+    versionedName:       Meowix Linux 23.8 "Abyssinian"
     shortVersionedName:  Meowix 23.8
     bootloaderEntryName: Meowix
     productUrl:          https://github.com/Meowix-Linux/
