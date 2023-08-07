@@ -157,6 +157,9 @@ pipewire-jack
 pipewire-pulse
 wireplumber
 
+### Other audio applications ###
+pavucontrol
+
 ### Fonts ###
 noto-fonts
 noto-fonts-cjk
