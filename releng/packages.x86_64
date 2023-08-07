@@ -158,6 +158,8 @@ pipewire-pulse
 wireplumber
 
 ### Other audio applications ###
+mpd
+mpdevil
 pavucontrol
 
 ### Fonts ###

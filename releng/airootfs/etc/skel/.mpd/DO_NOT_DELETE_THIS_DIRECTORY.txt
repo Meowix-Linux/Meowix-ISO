@@ -1,0 +1,2 @@
+This is the MPD directory; it stores information for your music player (mpdevil).
+Please do not delete it.
