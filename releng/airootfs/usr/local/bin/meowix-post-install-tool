@@ -20,11 +20,6 @@ while true; do
     	echo -e "Incorrect password. Please try again or press Ctrl+C to exit."
 	fi
 done
-themes=("ePapirus" "ePapirus-Dark" "Papirus" "Papirus-Dark" "Papirus-Light")
-folder_color="cat-mocha-pink"
-for theme in "${themes[@]}"; do
-    papirus-folders -C "$folder_color" -t "$theme"
-done
 echo "$password" | sudo -S rm /var/tmp/calamares-finished.lock
 echo -e "\nYour system is ready."
 read -n 1 -s -r -p "Press any key to exit..."
