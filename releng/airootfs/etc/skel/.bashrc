@@ -10,5 +10,8 @@
 # Set the shell prompt (shown if Starship is not initialized)
 PS1='[\u@\h \W]\$ '
 
+# Run the smartfetch wrapper for neofetch
+smartfetch
+
 # Initialize Starship
 eval "$(starship init bash)"

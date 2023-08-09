@@ -26,6 +26,7 @@ file_permissions=(
   ["/usr/local/bin/start-polybar"]="0:0:755"
   ["/usr/local/bin/meowix-post-install-tool"]="0:0:755"
   ["/usr/local/bin/create-calamares-lockfile"]="0:0:755"
+  ["/usr/local/bin/smartfetch"]="0:0:755"
   ["/etc/skel/.config/bspwm/bspwmrc"]="0:0:755"
   ["/etc/skel/.config/sxhkd/sxhkdrc"]="0:0:644"
   ["/etc/skel/.xinitrc"]="0:0:755"

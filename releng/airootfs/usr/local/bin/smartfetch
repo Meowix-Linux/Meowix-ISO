@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# smartfetch
+
+# Check if MPD is playing music via MPC
+mpc_status=$(mpc status 2>&1)
+
+if [[ $mpc_status == *"[playing]"* ]]; then
+  # If MPD is playing, send no arguments
+  args=()
+else
+  # If MPD is not playing, set --song_format to blank
+  args=( "--song_format" )
+fi
+
+# Append any additional arguments passed to the script
+args=( "$@" "${args[@]}" )
+
+# Set the fetch command
+nf_command="/usr/bin/neowofetch"
+#nf_command="/usr/bin/neofetch" # Original neofetch
+
+# Run the fetch command with the arguments
+"$nf_command" "${args[@]}"
