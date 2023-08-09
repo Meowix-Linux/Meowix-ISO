@@ -158,6 +158,7 @@ pipewire-pulse
 wireplumber
 
 ### Other audio applications ###
+mpc
 mpd
 mpdevil
 pavucontrol
@@ -196,6 +197,7 @@ arj
 binutils
 bzip2
 cpio
+gvfs
 gzip
 lrzip
 lz4
