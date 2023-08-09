@@ -1,0 +1,47 @@
+# starship.toml
+
+format = """
+[ ](fg:#f5c2e7 bg:#f5c2e7)\
+$username\
+[](fg:#313244 bg:#f5c2e7)\
+$directory\
+$git_branch\
+$git_status\
+$status\
+[ ](fg:#f5c2e7)\
+"""
+
+[username]
+show_always = true
+style_user = "fg:#313244 bg:#f5c2e7"
+style_root = "fg:#313244 bg:#f5c2e7"
+format = '[$user ]($style)'
+disabled = false
+
+[directory]
+style = "fg:#313244 bg:#f5c2e7"
+format = "[ $path ]($style)"
+disabled = false
+
+[directory.substitutions]
+"Documents" = "󱔗 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "fg:#313244 bg:#f5c2e7"
+format = '[ $symbol $branch]($style)'
+disabled = false
+
+[git_status]
+style = "fg:#313244 bg:#f5c2e7"
+format = '[ $all_status$ahead_behind ]($style)'
+up_to_date = '✓'
+disabled = false
+
+[status]
+style = "fg:#313244 bg:#f5c2e7"
+format = '[]($style)[ ](fg:#f38ba8 bg:#f5c2e7)[ $status ]($style)'
+disabled = false
