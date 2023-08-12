@@ -230,6 +230,7 @@ flameshot
 hyfetch-git
 iwgtk
 jgmenu
+libnotify
 lsb-release-meowix
 polkit-gnome
 polybar
