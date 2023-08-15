@@ -171,6 +171,7 @@ noto-fonts-extra
 ttf-hack-nerd
 
 ### Xorg ###
+bsp-layout
 bspwm-git
 picom
 sxhkd-git

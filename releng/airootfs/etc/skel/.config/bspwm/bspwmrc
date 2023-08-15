@@ -26,6 +26,8 @@ bspc config gapless_monocle      true
 # Focus windows when the pointer hovers over them
 bspc config focus_follows_pointer true
 
+# Added by MPIT
+
 # Set the default cursor
 xsetroot -cursor_name left_ptr
 
