@@ -20,7 +20,7 @@ while true; do
     	echo -e "Incorrect password. Please try again or press Ctrl+C to exit."
 	fi
 done
-options=("tall" "wide" "rtall" "rwide" "grid" "rgrid" "even" "default")
+options=("tall" "wide" "rtall" "rwide" "grid" "rgrid" "even" "tiled" "monocle")
 previews=(
 "
 _______________
@@ -68,6 +68,12 @@ _______________
 |        |____|
 |        |  | |
 |________|__|_|"
+"
+_______________
+|             |
+|             |
+|             |
+|_____________|"
 )
 selected=0
 while true; do
@@ -81,7 +87,7 @@ while true; do
             echo "  ${options[$i]}"
         fi
     done
-    tput cup 9 30
+    tput cup 10 30
     echo "${previews[$selected]}"
     read -rsn1 input
     case "$input" in
