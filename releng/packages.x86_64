@@ -224,6 +224,7 @@ paru
 ### Misc ###
 alacritty
 bash
+bash-completion
 calamares
 dunst
 firefox
