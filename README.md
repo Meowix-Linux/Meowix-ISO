@@ -119,7 +119,7 @@ At this point, you can unplug the USB drive.
 
 You should now see a display manager (login screen). Log in with the password you chose in the installer.
 
-Wait for the system to start. You should now see a window open that will instruct you to enter your account password. Do so, then wait for some finalization tasks to finish up.
+Wait for the system to start. You should now see a window open that will instruct you to enter your account password. Do so, then wait for some finalization tasks to finish up. Then you will need to select the layout that you want to use to arrange windows. Once again, do so.
 
 After the post-install script finishes, you will be instructed to press any key to exit. Do so.
 
