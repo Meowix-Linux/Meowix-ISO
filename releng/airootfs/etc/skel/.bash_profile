@@ -2,6 +2,7 @@
 # ~/.bash_profile
 #
 
+# Source ~/.bashrc if it exists
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 # Start the X server

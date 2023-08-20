@@ -1,0 +1,6 @@
+#
+# ~/.xprofile
+#
+
+# Source ~/.bashrc if it exists
+[[ -f ~/.bashrc ]] && . ~/.bashrc
