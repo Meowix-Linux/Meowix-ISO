@@ -1,12 +1,3 @@
----
-name: Pull request
-about: Contribute changes to the project
-title: "[PR] Pull Request"
-labels: ''
-assignees: ''
-
----
-
 <!--- Please do not ignore the template below; that will make it significantly harder for us to merge the PR. --->
 
 **Description**
