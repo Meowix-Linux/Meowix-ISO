@@ -7,19 +7,22 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    Meowix
-    version:             23.8 "Abyssinian"
-    shortVersion:        23.8
-    versionedName:       Meowix Linux 23.8 "Abyssinian"
-    shortVersionedName:  Meowix 23.8
+    version:             23.9 "Aegean"
+    shortVersion:        23.9
+    versionedName:       Meowix Linux 23.9 "Aegean"
+    shortVersionedName:  Meowix 23.9
     bootloaderEntryName: Meowix
-    productUrl:          https://github.com/Meowix-Linux/
+    productUrl:          https://meowix-linux.github.io/
+    supportUrl:          https://github.com/Meowix-Linux/Meowix-ISO/discussions/
+    knownIssuesUrl:      https://github.com/Meowix-Linux/Meowix-ISO/issues/
+    releaseNotesUrl:     https://github.com/Meowix-Linux/Meowix-ISO/releases/latest/
 images:
     productIcon:         "squid.png"
     productLogo:         "squid.png"
     productWelcome:      "languages.png"
 style:
-   sidebarBackground:    "#292F34"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#292F34"
-   sidebarTextHighlight: "#D35400"
+   sidebarBackground:    "#1e1e2e"
+   sidebarText:          "#cdd6f4"
+   sidebarTextSelect:    "#11111b"
+   sidebarTextHighlight: "#cdd6f4"
 slideshow: "show.qml"
