@@ -25,6 +25,8 @@ Meowix also uses the highly configurable [BSPWM](https://github.com/baskerville/
 
 Meowix Linux aims to make the installation of a beautiful and efficient system easier than ever before!
 
+![Screenshot of the Meowix Linux desktop](https://github.com/Meowix-Linux/Meowix-ISO/blob/d20632bf91d59437ba91f269f21a4e6f9abd01e1/releng/airootfs/etc/skel/Pictures/Screenshots/forreadme.png?raw=true)
+
 ## Installation
 
 **Please note that Meowix is currently in early stages. Expect bugs.** With that being said, you have two options to obtain an ISO: You can either download a release version of Meowix, or you can build a Meowix ISO yourself!
