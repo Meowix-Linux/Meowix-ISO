@@ -13,9 +13,6 @@ strings:
     shortVersionedName:  Meowix 23.9
     bootloaderEntryName: Meowix
     productUrl:          https://meowix-linux.github.io/
-    supportUrl:          https://github.com/Meowix-Linux/Meowix-ISO/discussions/
-    knownIssuesUrl:      https://github.com/Meowix-Linux/Meowix-ISO/issues/
-    releaseNotesUrl:     https://github.com/Meowix-Linux/Meowix-ISO/releases/latest/
 images:
     productIcon:         "squid.png"
     productLogo:         "squid.png"
