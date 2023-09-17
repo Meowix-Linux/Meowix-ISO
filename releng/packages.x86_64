@@ -241,4 +241,5 @@ polkit-gnome
 polybar
 qview
 starship
+xclip
 xdg-user-dirs
