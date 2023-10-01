@@ -54,9 +54,9 @@ super + {Left,Right}
 super + shift + {Left,Right}
 	bspc desktop -f {prev,next}.local
 
-# Switch focus to the last focused workspace
-super + Tab
-    bspc desktop last.local -f
+# Switch focus to the last focused {window,workspace}
+alt + {_,shift + }Tab
+    bspc {node,desktop} -f last
 
 # {Focus,Send the focused window to} desktop {1-9,10}
 super + {_,shift + }{1-9,0}
