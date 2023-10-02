@@ -7,10 +7,10 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    Meowix
-    version:             23.9 "Aegean"
-    shortVersion:        23.9
-    versionedName:       Meowix Linux 23.9 "Aegean"
-    shortVersionedName:  Meowix 23.9
+    version:             23.10 "American Bobtail"
+    shortVersion:        23.10
+    versionedName:       Meowix Linux 23.10 "American Bobtail"
+    shortVersionedName:  Meowix 23.10
     bootloaderEntryName: Meowix
     productUrl:          https://meowix-linux.github.io/
 images:
