@@ -8,7 +8,6 @@ export VISUAL='micro'
 
 # Set application settings
 export "MICRO_TRUECOLOR=1"
-export "SHELLCHECK_OPTS='--shell=bash --exclude=SC1090'"
 
 # If not running interactively, don't do anything else
 [[ $- != *i* ]] && return
