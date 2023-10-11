@@ -3,8 +3,9 @@
 #
 
 # Set default/preferred applications
-export EDITOR='micro'
-export VISUAL='micro'
+# NOTE: Micro is installed and configured, so if you would like to use it instead, change EDITOR and VISUAL to 'micro'
+export EDITOR='nvim'
+export VISUAL='nvim'
 
 # Set application settings
 export "MICRO_TRUECOLOR=1"
