@@ -37,7 +37,7 @@ disabled = false
 
 [git_status]
 style = "fg:#313244 bg:#f5c2e7"
-format = '[ $all_status$ahead_behind ]($style)'
+format = '[ ($all_status$ahead_behind )]($style)'
 up_to_date = '✓'
 disabled = false
 
