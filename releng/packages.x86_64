@@ -112,7 +112,7 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
+# vim (removed by Meowix maintainers)
 # virtualbox-guest-utils-nox (removed by Meowix maintainers)
 vpnc
 wezterm-terminfo
