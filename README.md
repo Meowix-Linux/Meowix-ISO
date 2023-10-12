@@ -1,5 +1,3 @@
-> Meowix is in trouble and needs your help! Are you familiar with the Calamares installer? If so, take a look at [issue #7](https://github.com/Meowix-Linux/Meowix-ISO/issues/7). With the current configuration of Calamares, nobody can install Meowix! Please see if you can help us resolve this issue.
-
 <p align="center">
 <img src="https://github.com/Meowix-Linux/Meowix-ISO/blob/main/assets/meowix.svg?raw=true" width=25% height=25%>
 </p>
