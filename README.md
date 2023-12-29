@@ -1,3 +1,9 @@
+# Meowix has been discontinued
+
+Please transition to a new distribution immediately. For more information, check out [this post](https://github.com/Meowix-Linux/Meowix-ISO/discussions/11).
+
+---
+
 <p align="center">
 <img src="https://github.com/Meowix-Linux/Meowix-ISO/blob/main/assets/meowix.svg?raw=true" width=25% height=25%>
 </p>
